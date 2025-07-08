@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+/* Estilo base */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffeb00; /* amarillo fuerte como en Figma */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Títulos con Coiny */
+h1, h2, h3 {
+  font-family: 'Coiny', cursive;
+  margin-top: 0;
+}
+
+/* Navegación */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  gap: 30px;
+  justify-content: center;
+  background-color: black;
+}
+
+nav ul li {
+  color: white;
+  font-weight: bold;
+}
+
+/* Secciones generales */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Servicios - lista */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+
+
